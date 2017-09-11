@@ -1,8 +1,10 @@
 import React from 'react'
+import AddPlayer from './AddPlayer'
 
 const StartGame = () => (
+  
   <div>
-    Add player
+  	<AddPlayer />
   </div>
 )
 
