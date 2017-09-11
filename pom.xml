@@ -79,10 +79,10 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<addResources>true</addResources>
-					<jvmArguments>
+					<!--  jvmArguments>
 						-Xdebug
 						-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005
-					</jvmArguments>
+					</jvmArguments-->
 				</configuration>
 			</plugin>
 			<plugin>
