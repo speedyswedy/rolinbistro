@@ -3,4 +3,5 @@ asspath
 .settings/
 target/
 .mvn
+src/main/resources/static
 
