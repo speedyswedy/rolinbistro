@@ -1,10 +1,11 @@
 import React from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
-import App from './modules/App';
-
+import './App.css';
+import { Game } from './modules/Board.js'
+ 
 render((
   <BrowserRouter>
-    <App />
+    <Game />
   </BrowserRouter>
 ), document.getElementById('root'));
