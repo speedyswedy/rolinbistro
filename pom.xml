@@ -76,31 +76,6 @@
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>com.heroku.sdk</groupId>
-				<artifactId>heroku-maven-plugin</artifactId>
-				<version>1.1.1</version>
-				<configuration>
-					<appName>1025</appName>
-					<includeTarget>false</includeTarget>
-					<includes>
-						<include>${basedir}/${full-artifact-name}</include>
-					</includes>
-					<jdkVersion>1.8</jdkVersion>
-					<processTypes>
-						<web>java $JAVA_OPTS -jar ${full-artifact-name}</web>
-					</processTypes>
-				</configuration>
-			</plugin>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<addResources>true</addResources>
-					<!-- jvmArguments> -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005 
-						</jvmArguments -->
-				</configuration>
-			</plugin>
-			<plugin>
 				<groupId>com.github.eirslett</groupId>
 				<artifactId>frontend-maven-plugin</artifactId>
 				<version>1.2</version>
@@ -161,6 +136,15 @@
 						</configuration>
 					</execution>
 				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<configuration>
+					<addResources>true</addResources>
+					<!-- jvmArguments> -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005 
+						</jvmArguments -->
+				</configuration>
 			</plugin>
 		</plugins>
 	</build>
