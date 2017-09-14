@@ -140,3 +140,5 @@ function calculatePoints(squares) {
   }
   return total;
 }
+
+export default Board
