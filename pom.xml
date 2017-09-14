@@ -3,8 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.springframework</groupId>
-	<artifactId>gs-spring-boot</artifactId>
-	<packaging>war</packaging>
+	<artifactId>gs-spring-boot</artifactId>s
 	<version>0.1.0</version>
 
 	<parent>
@@ -142,7 +141,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<addResources>true</addResources>
-					<!-- jvmArguments> -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005 
+					 <!-- jvmArguments> -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005 
 						</jvmArguments -->
 				</configuration>
 			</plugin>
