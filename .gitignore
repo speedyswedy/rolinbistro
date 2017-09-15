@@ -1,7 +1,12 @@
-asspath
+.classpath
+
 .project
+
 .settings/
 target/
+
 .mvn
+
 src/main/resources/static/
+src/main/public/
 
